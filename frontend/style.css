@@ -1,0 +1,124 @@
+body{
+margin:0;
+font-family:system-ui;
+background:#f6f1e9;
+color:#222;
+}
+
+/* Header */
+
+header{
+background:#1f2933;
+color:white;
+padding:40px 60px;
+}
+
+header h1{
+margin:0;
+font-size:40px;
+}
+
+header p{
+opacity:0.7;
+margin-top:10px;
+}
+
+/* Main section */
+
+.task-section{
+padding:40px 60px;
+max-width:900px;
+}
+
+/* Input area */
+
+.task-input{
+display:flex;
+gap:15px;
+margin-bottom:30px;
+}
+
+.task-input input{
+flex:1;
+padding:14px;
+font-size:16px;
+border-radius:8px;
+border:1px solid #ddd;
+}
+
+.task-input button{
+padding:14px 22px;
+border:none;
+background:#111827;
+color:white;
+border-radius:8px;
+cursor:pointer;
+font-weight:600;
+}
+
+.task-input button:hover{
+background:#374151;
+}
+
+/* Task list */
+
+ul{
+list-style:none;
+padding:0;
+margin:0;
+}
+
+li{
+background:white;
+padding:18px;
+border-radius:10px;
+margin-bottom:12px;
+display:flex;
+align-items:center;
+justify-content:space-between;
+box-shadow:0 2px 8px rgba(0,0,0,0.08);
+}
+
+/* Task text */
+
+.task-title{
+font-size:18px;
+}
+
+.completed{
+text-decoration:line-through;
+opacity:0.5;
+}
+
+/* Buttons */
+
+.actions{
+display:flex;
+gap:10px;
+}
+
+.actions button{
+border:none;
+padding:8px 14px;
+border-radius:6px;
+cursor:pointer;
+font-weight:600;
+}
+
+.done{
+background:#16a34a;
+color:white;
+}
+
+.delete{
+background:#dc2626;
+color:white;
+}
+
+.done:hover{
+background:#15803d;
+}
+
+.delete:hover{
+background:#b91c1c;
+}
