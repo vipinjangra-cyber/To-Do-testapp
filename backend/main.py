@@ -51,4 +51,5 @@ def complete_task(task_id: int, db: Session = Depends(get_db)):
     task = db.query(model.Task).filter(model.Task.id == task_id).first()
     task.completed = True
     db.commit()
+    db.refresh(task)
     return {"message": "Task completed"}
