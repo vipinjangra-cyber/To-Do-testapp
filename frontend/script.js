@@ -1,4 +1,4 @@
-const API = "http://localhost:8000/tasks";
+const API = "http://backend-service:8000/tasks";
 
 async function loadTasks(){
 
